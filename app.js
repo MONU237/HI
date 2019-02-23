@@ -23,7 +23,7 @@ bot.on("ready", async () => {
 }.activity.game, {url: '  ENTER  HERE '});
         } else {
           bot.user.setActivity({
-  "token": "  NTM1MTMzODg5MDE0OTIzMjc1.DyDt6A.8jbvXgbGXAcQTISy_nolsz6z_TI ",
+  "token": " NTQ4NTAwOTY3ODcyNzkwNTUw.D1GO3w.C91gUCf-gSmuizKcXHfRStS6LLI",
   "prefix": "!",
   "activity": {
     "playing": false,
@@ -34,7 +34,7 @@ bot.on("ready", async () => {
         }
       });
 client.login("NTA4NTMwMDMxMjc5MDc5NDM1.Dzh0jQ._Q49nDu2bexgpGKxtDMmd8e4gQ0", output);
-bot.login("NTI4MTgyNTEwNzk5MDI4MjI0.Dzv15Q.Kfy3uF_lMUyLo4KgfQZ11-26l9Q", output);
+bot.login("NTQ4NTAwOTY3ODcyNzkwNTUw.D1GO3w.C91gUCf-gSmuizKcXHfRStS6LLI", output);
 /** @type {!Array} */
 var hqchannels = ["459842150323060736","535628205139296256","536606600291549194"];
 /** @type {!Array} */
