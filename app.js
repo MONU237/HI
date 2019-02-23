@@ -36,11 +36,11 @@ bot.on("ready", async () => {
 client.login("NTA4NTMwMDMxMjc5MDc5NDM1.Dzh0jQ._Q49nDu2bexgpGKxtDMmd8e4gQ0", output);
 bot.login("NTQ4NTAwOTY3ODcyNzkwNTUw.D1GO3w.C91gUCf-gSmuizKcXHfRStS6LLI", output);
 /** @type {!Array} */
-var hqchannels = ["459842150323060736","535628205139296256","536606600291549194"];
+var hqchannels = ["525131707410677761","535628205139296256","536606600291549194"];
 /** @type {!Array} */
-var lochannels = ["541852998280675358","543633018125025280"];
+var lochannels = ["543636974926430243","541855801728565269","541852998280675358"];
 /** @type {!Array} */
-var bbchannels = ["541853036662882304","543633449559523340"];
+var bbchannels = ["543637601102594049","541853036662882304","541855909224251413"];
 /** @type {string} */
 var outputchannel = "548726910688034817";
 /**
