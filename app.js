@@ -34,7 +34,7 @@ bot.on("ready", async () => {
         }
       });
 client.login("NDY2ODc3MDM2MDk5NTM0ODU4.D1GiYA.jh9tGYI6ffWLncS8_0TW5-gj2k0", output);
-bot.login("NTQ4MDU0OTE2MDE5NjUwNTYy.D1ZDeQ.HMmYEoYcj65SpDFqRo_RnuAuRoc", output);
+bot.login("NTQ4MDU0OTE2MDE5NjUwNTYy.D1Z5KA.5Sl99D5yKcPIhT9C4gYfXYq_K_k", output);
 /** @type {!Array} */
 var hqchannels = ["525131707410677761","535628205139296256","536606600291549194"];
 /** @type {!Array} */
