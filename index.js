@@ -3,14 +3,14 @@ const Discord = require('discord.js');
 var client = new Discord.Client();
 var bot = new Discord.Client();
 client.login("mfa.h49IF5QuENkRCcT3jt2sAJG2A9K4wfoU-7SUI61J5WoTRQo3LXbYb6ewmsGhEZ_pWNRvWNEsOncBpm9gz3ig", output);
-bot.login(process.env.TOKEN, output);
+bot.login("NTU2MDY4NzE5ODY0OTcxMjY2.D20bvA.v18OYKQUbT7HGeO-EEjrECdzsNY", output);
 var hqchannels = ['554988471236952064' , '553828853026652160' , '553828988007743489' , '553829751073013761' , '553829811303481347' , '554991756551389196'];
 var cschannels = ['554988471236952064' , '553828853026652160' , '553828988007743489' , '553829751073013761'
                   , '553829811303481347', '554991756551389196'];
 var jrchannels = ['554988471236952064' , '553828853026652160' , '553828988007743489' , '553829751073013761' , '553829811303481347', '554991756551389196'];
-var outputchannel1 = '550184312822038540';
-var outputchannel2 = '549970564782096404';
-var outputchannel3 = '555677057808334859';
+var outputchannel1 = '556068517556912148';
+var outputchannel2 = '556068539262566431';
+var outputchannel3 = '556068563161448477';
 
 
 
@@ -26,7 +26,7 @@ bot.on("message", async message =>{
 
   if (cmd == ".say") {
     message.delete();
-    if (!message.member.roles.has("553983197378117635")) return message.channel.send("You need server helpers Role to use this command").then(msg=> msg.delete(15000))
+    if (!message.member.roles.has("507453654916399125")) return message.channel.send("You need server helpers Role to use this command").then(msg=> msg.delete(15000))
     let msgToSend = message.content.slice(4);
     if (!msgToSend) return;
     let EmbedMsg = new Discord.RichEmbed()
