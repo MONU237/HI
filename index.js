@@ -26,7 +26,7 @@ bot.on("message", async message =>{
 
   if (cmd == ".say") {
     message.delete();
-    if (!message.member.roles.has("546993516488687617")) return message.channel.send("You need server helpers Role to use this command").then(msg=> msg.delete(15000))
+    if (!message.member.roles.has("533459089662017556")) return message.channel.send("You need server helpers Role to use this command").then(msg=> msg.delete(15000))
     let msgToSend = message.content.slice(4);
     if (!msgToSend) return;
     let EmbedMsg = new Discord.RichEmbed()
