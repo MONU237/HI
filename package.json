@@ -1,37 +1,31 @@
 {
-  "name": "cashshow-hq-discord-bot",
+  "name": "discord.js-heroku",
   "version": "1.0.0",
-  "description": "Bot that retrieves question's best answers, and send them to Discord",
-  "main": "app.js",
+  "description": "An in-depth guide on deploying your Discord.js bot on Heroku",
+  "main": "index.js",
+  "engines": {
+    "node": "8.x",
+    "npm": "*"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Lil-Pepe/CashShow-HQ-Discord-Bot.git"
+    "url": "git+https://github.com/synicalsyntax/discord.js-heroku.git"
   },
   "keywords": [
-    "bot",
-    "hq",
-    "trivia",
-    "cash",
-    "show",
-    "discord",
-    "answers",
-    "question"
+    "heroku",
+    "discord.js"
   ],
-  "author": "LilPepe#6973",
-  "license": "ISC",
+  "author": "synicalsyntax",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Lil-Pepe/CashShow-HQ-Discord-Bot/issues"
+    "url": "https://github.com/synicalsyntax/discord.js-heroku/issues"
   },
-  "homepage": "https://github.com/Lil-Pepe/CashShow-HQ-Discord-Bot#readme",
+  "homepage": "https://github.com/synicalsyntax/discord.js-heroku#readme",
   "dependencies": {
-    "async": "^2.6.1",
-    "desktop-screenshot": "^0.1.1",
-    "discord.js": "^11.4.2",
-    "gm": "^1.23.1",
-    "nodecr": "0.0.5",
-    "request": "^2.88.0"
+    "discord.js": "^11.3.0"
   }
 }
